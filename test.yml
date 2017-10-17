@@ -3,4 +3,4 @@
   vars_files:
     - 'defaults/main.yml'
   tasks:
-    - include: 'tasks/main.yml'
+    - import_tasks: 'tasks/main.yml'
